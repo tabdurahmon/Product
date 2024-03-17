@@ -1,0 +1,177 @@
+/* montserrat-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/montserrat-v26-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/montserrat-v26-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* figtree-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/figtree-v5-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* figtree-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/figtree-v5-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* figtree-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/figtree-v5-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: 2px dotted black;
+  outline-offset: 3px;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2eae2;
+  font-family: "Figtree", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 24px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper {
+  display: flex;
+  width: 600px;
+  height: 450px;
+  margin-top: 175px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: White;
+  border-radius: 10px;
+}
+.wrapper__blog {
+  border-radius: 10px;
+}
+.wrapper__img {
+  border-radius: 10px;
+}
+.contend {
+  width: 300px;
+  height: 450px;
+  margin-left: 32px;
+  font-weight: 500;
+}
+.contend__description {
+  width: 92px;
+  height: 15px;
+  margin-top: 32px;
+  font-family: "Figtree", sans-serif;
+  letter-spacing: 5px;
+  color: #6c7289;
+}
+.contend__title {
+  width: 236px;
+  height: 96px;
+  margin-top: 20px;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+.contend__inner {
+  width: 237px;
+  height: 97px;
+  margin-top: 24px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: left;
+  font-family: "Figtree", sans-serif;
+  color: #6c7289;
+}
+.list {
+  display: flex;
+}
+.item__one {
+  width: 127px;
+  height: 32px;
+  margin-top: 29px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #3d8168;
+  font-family: "Figtree", sans-serif;
+}
+.item__two {
+  width: 48px;
+  height: 23px;
+  margin-top: 34px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 23px;
+  margin-left: 19px;
+  color: #6c7289;
+}
+.contend__btn {
+  width: 236px;
+  height: 48px;
+  background-color: #3d8168;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 29px;
+  justify-content: center;
+}
+
+.contend-btn__span {
+  width: 85px;
+  height: 17px;
+  left: 26px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  display: inline-block;
+  margin-top: 15px;
+}
